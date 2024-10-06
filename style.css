@@ -1,0 +1,54 @@
+/* General styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Styling for each parallax section */
+.section {
+    position: relative;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Individual background images for each section */
+.section1 {
+    background-image: url(media/1.jpg);
+}
+
+.section2 {
+    background-image: url(Media/2.jpg);
+}
+
+.section3 {
+    background-image: url(Media/3.jpg);
+}
+
+.section4 {
+    background-image: url(Media/4.jpg);
+}
+
+.section5 {
+    background-image: url(Media/5.jpg);
+}
+
+.section6 {
+    background-image: url(Media/6.jpg);
+}
+
+/* Content style for text over the parallax images */
+.content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    max-width: 600px;
+    font-size: 1.5rem;
+}
